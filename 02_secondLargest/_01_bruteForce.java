@@ -15,9 +15,9 @@ public class _01_bruteForce {
         }
         return secLargest;
 
-        /*Complexity
-            -->Time:- O(NlogN)
-            --> Space:- O(1)
+        /*
+        Time Complexity: O(NlogN), For sorting the array
+        Space Complexity: O(1)
         */
 
             

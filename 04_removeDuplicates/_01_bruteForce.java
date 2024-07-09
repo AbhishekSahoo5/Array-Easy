@@ -9,7 +9,12 @@ public class _01_bruteForce{
             set.add(arr[i]);
         }
         System.out.println(set);
-        return set.size();
+        int k=set.size();
+        int j=0;
+        for(int x:set){
+            arr[j++]=x;
+        }
+        return k;
     }
     /*
         Complexity

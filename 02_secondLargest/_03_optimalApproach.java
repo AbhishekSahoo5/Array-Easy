@@ -20,9 +20,8 @@ public class _03_optimalApproach {
         return secLargest;
 
         /*
-        Complexity
-            -->Time:- O(N)
-            --> Space:- O(1)
+        Time Complexity: O(N), Single-pass solution
+        Space Complexity: O(1)
         */
 
             

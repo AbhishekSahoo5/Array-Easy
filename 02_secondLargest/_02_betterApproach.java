@@ -18,7 +18,7 @@ public class _02_betterApproach {
         //second pass---> find the second largest
         for(int i=0;i<n;i++)
         {
-            if(arr[i]>secLargest && arr[i]<largest)
+            if(arr[i]<largest && arr[i]>secLargest)
             {
                 secLargest=arr[i];
             }
