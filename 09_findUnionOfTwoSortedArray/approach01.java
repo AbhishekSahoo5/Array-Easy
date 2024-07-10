@@ -24,11 +24,8 @@ public class approach01 {
             set.add(arr2[i]);             //O(1)
         }
 
-        // ArrayList<Integer> union=new ArrayList<>(set);
-
-        //Iterate over the HashSet and add each element to the ArrayList
         ArrayList<Integer> union=new ArrayList<>();
-        for (Integer element : set) {  //O(sizeof Set)   
+        for (Integer element : set) {  
             union.add(element);
         }
 
